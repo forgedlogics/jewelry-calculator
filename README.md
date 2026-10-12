@@ -2,10 +2,16 @@
 
 A simple tool to turn your jewelry costs into a retail price and profit estimate.
 
-## Use it in 4 steps
+[![Open browser preview](https://img.shields.io/badge/Open-Browser%20Preview-176B87?style=for-the-badge&logo=stackblitz&logoColor=white)](https://stackblitz.com/github/forgedlogics/jewelry-calculator)
 
-1. Name the piece and choose the quantity.
-2. Pick the metal, enter the finished weight in grams, and add your metal price per gram.
+> **Start here:** [Open the calculator in your browser →](https://stackblitz.com/github/forgedlogics/jewelry-calculator)
+>
+> The preview runs the current GitHub project online. Projects you save there stay in that browser; use the local setup below when you want your own hosted version.
+
+## Quick start
+
+1. [Open the browser preview](https://stackblitz.com/github/forgedlogics/jewelry-calculator).
+2. In **Simple Mode**, name the piece, choose a metal, and enter its finished weight.
 3. Add stone cost and bench labor.
 4. Set your retail markup. The suggested retail price, expected profit, and margin update automatically.
 
