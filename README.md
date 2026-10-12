@@ -1,35 +1,56 @@
 # BenchMark Jewelry Pricing Calculator
 
-A browser-first studio tool for estimating jewelry production cost, wholesale pricing, retail pricing, margin, and quote totals. It is designed for real CAD-to-bench workflows: use an actual finished weight, calculate from Rhino volume, or scan a closed STL / mesh-based 3DM file.
+A simple tool to turn your jewelry costs into a retail price and profit estimate.
 
-## Quick Start
+## Use it in 4 steps
+
+1. Name the piece and choose the quantity.
+2. Pick the metal, enter the finished weight in grams, and add your metal price per gram.
+3. Add stone cost and bench labor.
+4. Set your retail markup. The suggested retail price, expected profit, and margin update automatically.
+
+That is enough for a quick estimate.
+
+## When to use Advanced Tools
+
+Choose **Show advanced tools** only when you need more detail:
+
+- Import an STL or mesh-based 3DM / enter Rhino volume
+- Refresh a live metal spot price
+- Add CAD labor, parts, packaging, shipping, and overhead
+- Calculate wholesale, expected discounts, card fees, and sales tax
+
+## What the numbers mean
+
+- **Production cost:** metal + materials + labor + fulfillment + overhead
+- **Retail before tax:** your production cost plus retail markup
+- **Estimated profit:** retail price minus production cost and payment fees
+- **Margin:** what percentage of the retail price remains as profit
+
+## Save and share
+
+- **Save project:** keeps the estimate in this browser.
+- **Duplicate:** makes a copy before testing another option.
+- **Download quote:** creates a plain-text estimate you can send or save.
+
+Projects are stored only in your browser. Clearing browser data removes them.
+
+## Important
+
+This is a planning calculator, not a final supplier quote. Before selling, confirm:
+
+- Metal cost with your supplier
+- Stone availability and price
+- Production time
+- Applicable tax
+
+## Run it locally
 
 ```bash
 npm install
 npm start
 ```
 
-Then open `http://localhost:3000` in your browser, or use the URL printed in the terminal.
+Open the local address shown in the terminal (usually `http://localhost:3000`).
 
-## Features
-
-- Detailed quote information: piece, client / collection, quantity, and notes
-- CAD-aware metal cost: manual Rhino volume, STL / mesh-based 3DM scanning, or actual finished weight
-- Live gold, silver, and platinum spot-price lookup with a safe manual-price fallback
-- Separate materials, labor, packaging, shipping / fulfillment, casting buffer, and studio overhead
-- Wholesale and retail pricing, expected discount, card-processing fee, sales-tax total, profit, and margin views
-- Local project saving, duplication, deletion, and an on-demand plain-text quote download
-- Responsive layout with no account or server-side project data required
-
-## Storage
-
-Projects are saved in browser `localStorage`. They stay on the same browser/device unless browser data is cleared. The app deliberately does not upload client names, pricing, or saved projects.
-
-## Pricing note
-
-Estimates support planning; verify supplier metal pricing, stone availability, labor time, and applicable sales tax before quoting or selling.
-
-## Documentation
-
-- [QUICKSTART.md](QUICKSTART.md)
-- [DEPLOYMENT.md](DEPLOYMENT.md)
+For deployment details, see [DEPLOYMENT.md](DEPLOYMENT.md).

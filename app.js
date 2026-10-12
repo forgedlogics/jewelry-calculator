@@ -12,10 +12,11 @@ const money = (number) => currency.format(Number.isFinite(number) ? number : 0);
 const percent = (number) => `${(number * 100).toFixed(1)}%`;
 
 document.addEventListener('DOMContentLoaded', () => {
-  get('pricingForm').addEventListener('input', calculate); get('pricingForm').addEventListener('change', calculate);
+  get('pricingForm').addEventListener('input', calculate); get('pricingForm').addEventListener('change', calculate); get('advancedToggle').addEventListener('click', toggleAdvanced);
   get('projectSelector').addEventListener('change', loadProject); get('newProjectButton').addEventListener('click', createProject); get('saveProjectButton').addEventListener('click', saveProject); get('duplicateProjectButton').addEventListener('click', duplicateProject); get('deleteProjectButton').addEventListener('click', deleteProject); get('resetButton').addEventListener('click', reset); get('cadWeightButton').addEventListener('click', applyCadWeight); get('cadFile').addEventListener('change', readCadFile); get('livePriceButton').addEventListener('click', updateLivePrice); get('downloadQuoteButton').addEventListener('click', downloadQuote);
   projects = readProjects(); refreshSelector(); reset();
 });
+function toggleAdvanced() { const simple = document.body.classList.toggle('simple-mode'); get('advancedToggle').textContent = simple ? 'Show advanced tools' : 'Hide advanced tools'; get('advancedToggle').setAttribute('aria-expanded', String(!simple)); }
 
 function notice(message, type = 'success') { const node = get('notification'); node.textContent = message; node.className = `notification show ${type}`; clearTimeout(notice.timer); notice.timer = setTimeout(() => node.classList.remove('show'), 3200); }
 function read(key) { try { const value = JSON.parse(localStorage.getItem(key)); return Array.isArray(value) ? value : []; } catch { return []; } }
