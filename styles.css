@@ -784,6 +784,9 @@ label small, .action-stack small { color: var(--muted); font-size: .74rem; font-
 .file-input input { padding: 8px; }
 .cad-upload { background: #f1f8f9; border: 1px solid #bddae2; border-radius: 8px; padding: 12px; }
 .file-status.cad-upload { display: flex; align-items: center; color: var(--accent-strong); font-size: .82rem; line-height: 1.4; }
+.client-quote-fields { background: #fbfcfc; }
+.quote-image-input { display: grid; max-width: 520px; gap: 7px; }
+.quote-help { margin: -10px 0 18px; color: var(--muted); font-size: .82rem; line-height: 1.45; }
 .metric-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin-bottom: 22px; }
 .metric { padding: 13px; background: #f7fafb; border: 1px solid #e6edf0; border-radius: 8px; }
 .metric.featured { grid-column: span 2; background: #eaf4f6; border-color: #bddae2; }
