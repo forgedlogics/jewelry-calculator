@@ -2,15 +2,15 @@
 
 A simple tool to turn your jewelry costs into a retail price and profit estimate.
 
-[![Open browser preview](https://img.shields.io/badge/Open-Browser%20Preview-176B87?style=for-the-badge&logo=stackblitz&logoColor=white)](https://stackblitz.com/github/forgedlogics/jewelry-calculator)
+[![Open calculator](https://img.shields.io/badge/Open-Live%20Calculator-176B87?style=for-the-badge&logo=github&logoColor=white)](https://forgedlogics.github.io/jewelry-calculator/)
 
-> **Start here:** [Open the calculator in your browser →](https://stackblitz.com/github/forgedlogics/jewelry-calculator)
+> **Start here:** [Open the calculator in your browser →](https://forgedlogics.github.io/jewelry-calculator/)
 >
-> The preview runs the current GitHub project online. Projects you save there stay in that browser; use the local setup below when you want your own hosted version.
+> Saved projects stay in your browser. Enter your metal price manually in this free public version.
 
 ## Quick start
 
-1. [Open the browser preview](https://stackblitz.com/github/forgedlogics/jewelry-calculator).
+1. [Open the calculator](https://forgedlogics.github.io/jewelry-calculator/).
 2. In **Simple Mode**, name the piece, choose a metal, and enter its finished weight.
 3. Add stone cost and bench labor.
 4. Set your retail markup. The suggested retail price, expected profit, and margin update automatically.
@@ -22,7 +22,7 @@ That is enough for a quick estimate.
 Choose **Show advanced tools** only when you need more detail:
 
 - Import an STL or mesh-based 3DM / enter Rhino volume
-- Refresh a live metal spot price
+- Use a live metal spot price when running your own Node-hosted version
 - Add CAD labor, parts, packaging, shipping, and overhead
 - Calculate wholesale, expected discounts, card fees, and sales tax
 
