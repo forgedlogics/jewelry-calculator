@@ -6,12 +6,12 @@ A simple tool to turn your jewelry costs into a retail price and profit estimate
 
 > **Start here:** [Open the calculator in your browser →](https://forgedlogics.github.io/jewelry-calculator/)
 >
-> Saved projects stay in your browser. Enter your metal price manually in this free public version.
+> Saved projects stay in your browser. Use **Use current metal price** for an approximate gold, silver, or platinum alloy cost, then confirm your supplier quote before selling.
 
 ## Quick start
 
 1. [Open the calculator](https://forgedlogics.github.io/jewelry-calculator/).
-2. In **Simple Mode**, name the piece, choose a metal, and enter its finished weight.
+2. In **Simple Mode**, name the piece, choose a metal, and enter its finished weight — or upload an STL / mesh-based 3DM to calculate an estimated weight automatically.
 3. Add stone cost and bench labor.
 4. Set your retail markup. The suggested retail price, expected profit, and margin update automatically.
 
@@ -22,7 +22,7 @@ That is enough for a quick estimate.
 Choose **Show advanced tools** only when you need more detail:
 
 - Import an STL or mesh-based 3DM / enter Rhino volume
-- Use a live metal spot price when running your own Node-hosted version
+- Refresh an approximate current metal price
 - Add CAD labor, parts, packaging, shipping, and overhead
 - Calculate wholesale, expected discounts, card fees, and sales tax
 
