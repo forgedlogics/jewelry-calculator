@@ -37,7 +37,7 @@ Choose **Show advanced tools** only when you need more detail:
 
 - **Save project:** keeps the estimate in this browser.
 - **Duplicate:** makes a copy before testing another option.
-- **Create client quote (PDF):** adds up to four piece photos or renders to a polished approval page. In the new tab, choose **Print or Save as PDF**, then send that PDF to your client.
+- **Create client quote (PDF):** adds up to four piece photos or renders to a polished approval page. Add the client name, production time, deposit percentage, and quote-validity period; then choose **Print or Save as PDF** and send it to your client.
 
 Projects are stored only in your browser. Clearing browser data removes them.
 
