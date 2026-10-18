@@ -14,7 +14,7 @@ npm start
 
 ## 3. Open in Browser
 
-Visit `http://localhost:5000`, or use the URL printed in the terminal.
+Visit `http://localhost:3000`, or use the URL printed in the terminal.
 
 ## 4. Start Using
 

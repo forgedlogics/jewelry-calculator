@@ -8,6 +8,10 @@ A simple tool to turn your jewelry costs into a retail price and profit estimate
 >
 > Saved projects stay in your browser. Use **Use current metal price** for an approximate gold, silver, or platinum alloy cost, then confirm your supplier quote before selling.
 
+## Connected workspace
+
+[Open Jewelry Workbench](https://forgedlogics.github.io/jewelry-story-kit/?tool=pricing&v=profile-links-20261017) to use this calculator alongside Story Kit, Campaign Studio, and stone-cost handoffs. Each tool works independently; sharing is optional.
+
 ## Quick start
 
 1. [Open the calculator](https://forgedlogics.github.io/jewelry-calculator/).

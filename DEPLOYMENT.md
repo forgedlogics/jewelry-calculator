@@ -31,7 +31,7 @@ npm start
 
 3. Open:
 ```text
-http://localhost:5000
+http://localhost:3000
 ```
 
 If the app uses another port, use the URL shown in the terminal.
